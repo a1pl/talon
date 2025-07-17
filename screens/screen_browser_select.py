@@ -56,7 +56,7 @@ def main():
     img_label = UIImage("browser_selection.png", parent=overlay)
     img_label.lower()
     browser_options = [
-        ("Chrome (Thorium)",    "googlechrome",   (251, 191, 14)),
+        ("Chrome (Thorium)",    "thorium",   (251, 191, 14)),
         ("Edge",                "microsoft-edge", (44, 195, 193)),
         ("Brave (Recommended)", "brave",          (255, 47, 0)),
         ("Firefox",             "firefox",        (89, 58, 177)),
